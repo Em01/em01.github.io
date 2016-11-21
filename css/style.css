@@ -95,15 +95,7 @@ header .line {
 nav {
   margin:0 -25px 0 -25px;	
   height:54px;
-  background: #afcb29; /* Old browsers */
-  background: -moz-linear-gradient(top, #afcb29 0%, #7c8f1c 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#afcb29), color-stop(100%,#7c8f1c)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #afcb29 0%,#7c8f1c 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #afcb29 0%,#7c8f1c 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #afcb29 0%,#7c8f1c 100%); /* IE10+ */
-  background: linear-gradient(top, #afcb29 0%,#7c8f1c 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afcb29', endColorstr='#7c8f1c',GradientType=0 ); /* IE6-9 */
-  -moz-box-shadow: 0px 3px #cfcfcf;
+  background: #cb6753; /* Old browsers */
   -webkit-box-shadow: 0px 3px #cfcfcf;
   box-shadow: 0px 3px #cfcfcf;
   filter: progid: DXImageTransform.Microsoft.Shadow(strength = 3, direction = 180, color = '#cfcfcf');
