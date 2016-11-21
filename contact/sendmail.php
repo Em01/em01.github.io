@@ -56,10 +56,10 @@ Boom. There it is.
 */
 
 //        Who you want to recieve the emails from the form. (Hint: generally you.)
-$sendto = 'kontakt@pavlerohalj.com';
+$sendto = 'github@em01.co.uk';
 
 //        The subject you'll see in your inbox
-$subject = 'Contact from contact form';
+$subject = 'My SITE';
 
 //        Message for the user when he/she doesn't fill in the form correctly.
 $errormessage = 'Oops! There seems to have been a problem. May we suggest...';
