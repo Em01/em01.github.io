@@ -119,8 +119,8 @@ nav ul li a {
   font: 20px/54px  BebasNeue;
   text-decoration:none;
   color:#fff;
-  text-shadow: 1px 1px 0px #647416;
-  filter: dropshadow(color=#647416, offx=1, offy=1);  
+  text-shadow: 1px 1px 0px #353840;
+  filter: dropshadow(color=#353840, offx=1, offy=1);  
   height:54px;
   display:block;  
   -webkit-transition: all 0.5s ease;
@@ -150,15 +150,15 @@ nav ul li a:hover {
 }
 
 #description .step:nth-child(2) {
-  margin-left:150px;
+  margin-left:196px;
 }
 
 #description .step:nth-child(3) {
-  margin-left:90px;
+  margin-left:177px;
 }
 
 #description .step:nth-child(4) {
-  margin-left:110px;
+  margin-left:165px;
 }
 
 #description .step {
