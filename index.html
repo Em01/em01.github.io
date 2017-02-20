@@ -17,7 +17,16 @@ $(document).ready(function() {
 
 	/* This is basic - uses default settings */
 	
-	$("a.single-image").fancybox();
+	$("a.single-image").fancybox({
+    'autoDimensions': false,
+    'padding'       : 0,
+    // 'width'         : 100%,
+    // 'height'        : 100%,
+    'autoScale'     : false,
+    'transitionIn'  : 'none',
+    'transitionOut' : 'none',
+     'type'          : 'iframe'
+  });
 	
 	/* Using custom settings */
 	
@@ -101,42 +110,51 @@ $.fn.clearForm = function() {
   
   <section id="portfolio"><!-- 'Porftolio' section starts here -->
   <h2 class="portfolio">Portfolio</h2>
-    <div class="project">
-       <a href="images/kate_salberg.png" class="single-image"><img src="images/kate_salberg.png" alt="Work sample" /></a>
-       <div class="project-name">Kate Salberg</div>
-       <div class="project-description">Personal Website Example 1</div>
+
+      <div class="project">
+       <a href="images/ks.png" class="single-image"><img src="images/kshomemini.png" alt="KSA" /></a>
+       <div class="project-name">KSA</div>
+       <div class="project-description">
+       <a href=http://www.katesalberg.co.uk/ class="project-description">Visit Site</a></div>
     </div>
-    
+
     <div class="project">
-       <a href="images/kate_salberg_two.png" class="single-image"><img src="images/kate_salberg_two.png" alt="Work sample" /></a>
+       <a href="images/ksresume.png" class="single-image"><img src="images/ksresumemini.png" alt="Kate Salberg" /></a>
        <div class="project-name">Kate Salberg</div>
-       <div class="project-description">Personal Website Example 2</div>
+       <div class="project-description">
+       <a href=http://www.katesalberg.co.uk/ class="project-description">Visit Site</a></div>
     </div>
-    
+
     <div class="project">
-       <a href="images/sincuru_one.png" class="single-image"><img src="images/sincuru_one.png" alt="Work sample" /></a>
-       <div class="project-name">Sincuru</div>
-       <div class="project-description">Early stage startup Example 1</div>
+       <a href="images/ksorig.png" class="single-image"><img src="images/ksorigmini.png" alt="kate salberg additional" /></a>
+       <div class="project-name">Kate Salberg</div>
+       <div class="project-description">Kate Salberg</div>
     </div>
     
     <div class="separator"></div><!-- Invisible separator (also clears content) -->
     
     <div class="project">
-       <a href="images/sincuru_two.png" class="single-image"><img src="images/sincuru_two.png" alt="Work sample" /></a>
-       <div class="project-name">Sincuru</div>
-       <div class="project-description">Early stage startup Example 2</div>
+      <a href="images/sintwo.png" class="single-image"><img src="images/sincuru_two.png" alt="sincuru two additional" /></a>
+      <div class="project-name">Sincuru</div>
+      <div class="project-description">
+      <a href=https://pacific-dusk-5405.herokuapp.com/ class="project-description">Visit Site</a>
+      </div>
     </div>
 
     <div class="project">
-       <a href="images/unipop.png" class="single-image"><img src="images/unipop.png" alt="Work sample" /></a>
-       <div class="project-name">Unipop</div>
-       <div class="project-description">Demo Site</div>
+       <a href="images/sinone.png" class="single-image"><img src="images/sincuru_one.png" alt="sincuru" /></a>
+      <div class="project-name">Sincuru</div>
+      <div class="project-description">
+      <a href=https://pacific-dusk-5405.herokuapp.com/ class="project-description">Visit Site</a>
+      </div>
     </div>
 
     <div class="project">
-       <a href="images/sincuru_one.png" class="single-image"><img src="images/ksNew.png" alt="Work sample" /></a>
-       <div class="project-name">KSA</div>
-       <div class="project-description">Personal Website</div>
+      <a href="images/unipopone.png" class="single-image"><img src="images/unipop.png" alt="Unipop" /></a>
+      <div class="project-name">Unipop</div>
+      <div class="project-description">
+      <a href=http://unipop.herokuapp.com/ class="project-description">Visit Site</a>
+      </div>
     </div>
     
   </section><!-- 'Portfolio' section ends here -->
@@ -208,6 +226,6 @@ $.fn.clearForm = function() {
 </head>
 
 <body>
-  <!-- <script src="js/scripts.js"></script> -->
+  <script src="js/scripts.js"></script>
 </body>
 </html>
